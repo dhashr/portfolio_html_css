@@ -1,0 +1,159 @@
+img{
+  height: 35px;
+  width: 30px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  background-color:  rgb(61, 60, 60);
+  position: sticky;
+  top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 15px 2px;
+}
+.navbar ul li{
+    font-size: 1.2rem;
+    font-style: italic
+}
+.navbar ul li a{
+    text-decoration:none;
+    color: white;
+    padding: 15px 30px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px whitesmoke;
+}
+#home{
+height:600px;
+width:600px auto;
+background-image:url("https://www.nvidia.com/content/dam/en-zz/Solutions/gtc-2018/heroImages/gtc18-poster-gallery-background-1024-t.jpg");
+}
+#home-screen{
+text-align: center;
+width: 75%;
+margin: 0px auto;
+}
+#photo{
+margin-top: 100px;
+width: 250px;
+height: 250px;
+border-radius: 50%;
+}
+#name{
+margin-top: 25px;
+margin-bottom: 30px;
+font-size: 35px;
+font-style: oblique;
+color: rgb(97, 92, 92);
+}
+#field{
+margin-top: 30px;
+font-size: 30px;
+font-style: oblique ;
+color: rgb(97, 92, 92);
+}
+#about{
+height:600px;
+width:500px auto;
+background-color:rgb(61, 60, 60);
+}
+#title{
+margin-left: 17cm;
+margin-top: 2px;
+color: rgb(184, 184, 184);
+font-size: 45px;
+font-style: italic;
+}
+#discribtion{
+margin-left: 17cm;  
+margin-top: 1px;  
+color: rgb(184, 184, 184);
+font-size: 32px;
+font-style: italic;
+}
+#skills{
+height:600px ;
+width:600px auto;
+background-image:url("https://www.nvidia.com/content/dam/en-zz/Solutions/gtc-2018/heroImages/gtc18-poster-gallery-background-1024-t.jpg");
+margin-top: 2px;
+}
+#skill-set{
+margin-top: 2px;
+margin-left: 10cm;
+font-size: 40px;
+color: rgb(97, 92, 92);
+font-style: italic;
+}
+#course{
+margin-top: 1px;
+margin-left: 10cm;
+font-size: 28px; 
+color: rgb(97, 92, 92);
+font-style: italic;
+}
+#cert{
+margin-top: 2px;
+margin-left: 10cm;
+font-size: 40px;
+color: rgb(97, 92, 92);
+font-style: italic;
+}
+#cert1{
+margin-top: 1px;
+margin-left: 10cm;
+font-size: 28px; 
+color: rgb(97, 92, 92);
+font-style: italic;
+}
+#reach-us{
+height:650px;
+width:500px auto;
+background-color:rgb(61, 60, 60);
+margin-top: 3px;
+}
+#contact{
+margin-left: 6cm;
+margin-top: 2px;
+color: rgb(184, 184, 184);
+font-size: 38px;
+font-style: italic;
+}
+#address{
+margin-left: 6cm;
+margin-top: 2px;
+color: rgb(184, 184, 184);
+font-size: 28px;
+font-style: italic; 
+}
+#mail{
+  margin-left: 6cm;
+  margin-top: 2px;
+  color: rgb(184, 184, 184);
+  font-size: 28px;
+  font-style: italic;
+  text-decoration: none;
+}
+#tab{
+margin-left: 20cm;
+color: rgb(184, 184, 184);
+font-size: 28px;
+font-style: italic;
+}
+#social-media{
+margin-left: 8cm;
+margin-top: 2px;
+color: rgb(184, 184, 184); 
+font-size: 30px;
+font-style: italic;
+}
